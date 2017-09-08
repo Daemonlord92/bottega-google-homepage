@@ -1,58 +1,96 @@
-.search {
-    width: 100%;
-    position: relative;
-    margin: 0 50%;
+ul {
+    list-style: none;
 }
 
-.wrap {
-    width: 40%;
-    position: absolute;
-    top: 50%;
-    bottom: 50%;
+li {
+    display: inline;
+    margin-right: 10px;
 }
 
-.searchTerm {
-    width: 100%;
-    padding: 5px;
-    height: 20px;
-    border-radius: 5px;
-    outline: none;
+header,
+footer {
+    display: inline;
+    text-align: center;
 }
 
-.wrap button {
-    margin: 0 auto;
-    position: center;
-}
-
-.leftFooter {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    padding: 1rem;
-    text-align: left;
-}
-
-.rightFooter {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    padding: 1rem;
-    text-align: right;
-}
-
-header {
-    position: top;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    padding: 1rem;
-    text-align: right;
-}
-
-img {
-    display: block;
-    margin: auto;
+header button {
+    border-radius: 3px;
+    background-color: #4285f4;
+    border-color: #4285f4;
+    color: white;
     padding: 10px;
+    font-weight: bold;
+}
+
+.searchStation {
+    position: absolute;
+    top: 25%;
+    bottom: 50%;
+    left: 35%;
+    right: 50%
+}
+
+.searchStation img {
+    padding: 30px;
+    margin: 20px;
+}
+
+.searchBar {
+    width: 400px;
+}
+
+.searchButton {
+    display: inline;
+    text-align: center;
+    width: 100%;
+}
+
+.searchButton button {
+    display: inline-block;
+    margin-right: 10px;
+    width: 150px;
+    border-radius: 6px;
+    background-color: #F9F5F5;
+    font-size: 16px;
+    text-align: right;
+    margin: 10px;
+    font-weight: bold;
+    color: darkgrey;
+    padding: 5px;
+    vertical-align: middle;
+}
+
+.searchButton button:hover {
+    border-color: darkgrey;
+}
+
+#header {
+    text-align: right;
+    top: 0;
+    right: 0;
+    position: fixed;
+    padding: 10px;
+    margin: 10px;
+}
+
+#leftFooter {
+    text-align: left;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    margin: 10px;
+}
+
+#rightFooter {
+    text-align: right;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 10px;
+    margin: 10px;
+}
+
+footer {
+    background-color: gray;
 }

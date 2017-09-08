@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Google</title>
+    <title></title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="resources/css/style.css" rel="stylesheet">
@@ -10,34 +10,50 @@
 
 <body>
     <header>
-
-        <p><a href="#">Gmail</a></p>
-        <p><a href="#">Images</a></p>
-        <button><a href="#">Sign In</a></button>
-
+        <div id="header">
+            <ul>
+                <li><a href="#">Gmail</a></li>
+                <li><a href="#">Images</a></li>
+                <li>
+                    <button type="signin">Sign In</button>
+                </li>
+            </ul>
+        </div>
     </header>
-
-    <img src="resources/img/googlelogo_color_272x92dp.png" alt="The Google Logo">
-    <div class="wrap">
-        <div class="search">
-            <input type="text" class="searchTerm" placeholder="">
+    <div class="searchStation">
+        <img src="resources/img/googlelogo_color_272x92dp.png" alt="Google Logo">
+        <div class="searchButton">
+            <input type="search" name="" class="searchBar">
             <button type="submit">Google Search</button>
             <button type="submit">I'm Feeling Lucky</button>
-
         </div>
     </div>
-
-
     <footer>
-        <div class="leftFooter">
-            <p><a href="#">Advertising</a></p>
-            <p><a href="#">Business</a></p>
-            <p><a href="#">About</a></p>
+        <div id="leftFooter">
+            <ul>
+                <li>
+                    <a href="#">Advertising</a>
+                </li>
+                <li>
+                    <a href="#">Business</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+            </ul>
         </div>
-        <div class="rightFooter">
-            <p><a href="#">Privacy</a></p>
-            <p><a href="#">Terms</a></p>
-            <p><a href="#">Settings</a></p>
+        <div id="rightFooter">
+            <ul>
+                <li>
+                    <a href="#">Privacy</a>
+                </li>
+                <li>
+                    <a href="#">Terms</a>
+                </li>
+                <li>
+                    <a href="#">Settings</a>
+                </li>
+            </ul>
         </div>
     </footer>
 

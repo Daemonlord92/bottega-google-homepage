@@ -23,6 +23,7 @@ header button {
 }
 
 .searchStation {
+    display: inline;
     position: absolute;
     top: 25%;
     bottom: 50%;
@@ -38,6 +39,7 @@ header button {
 .searchBar {
     width: 500px;
     height: 35px;
+    left: 25%;
 }
 
 .searchButton {
@@ -45,6 +47,8 @@ header button {
     text-align: center;
     height: 50px;
     width: 100px;
+    padding: 5px;
+    margin: 10px;
 }
 
 .searchButton button {

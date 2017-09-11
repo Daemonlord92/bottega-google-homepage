@@ -23,16 +23,13 @@ header button {
 }
 
 .searchStation {
-    display: inline;
     position: absolute;
-    top: 25%;
-    left: 30%;
+    top: 30%;
+    left: 35%;
 }
 
-.searchStation img {
-    padding: 30px;
-    margin: 20px;
-    float: inherit;
+.GL {
+    padding: 30px 100px;
 }
 
 .searchBar {

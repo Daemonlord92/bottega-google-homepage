@@ -26,26 +26,31 @@ header button {
     display: inline;
     position: absolute;
     top: 25%;
-    bottom: 50%;
-    left: 35%;
-    right: 50%
+    left: 30%;
 }
 
 .searchStation img {
     padding: 30px;
     margin: 20px;
+    float: inherit;
 }
 
 .searchBar {
     width: 500px;
     height: 35px;
-    left: 25%;
+}
+
+SSsb {
+    position: relative;
+    float: left;
+    margin-right: 20px;
 }
 
 .searchButton {
     display: block;
     text-align: center;
     margin: 0 auto;
+    position: relative;
 }
 
 .searchButton button {
